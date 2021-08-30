@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif; 
+}
+nav{
+    background-color: #F19469;
+}
+#logoBendela{
+    height: 10vh;
+    width: 10vh;
+}
+#texto{
+    height: 25vh;
+
+}
+#icone{
+    height: 10vh;
+    width: 10vh;
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    cursor: pointer;
+    padding: 5px;
+    z-index: 1;
+    color: #5A7302;
+}
+
+main{
+    height: 120vh;
+    margin: 5vh;
+}
+#formulario{
+    padding: 5vh;
+    width: 70%;
+    height: 80vh;
+    background: rgb(241,148,105);
+    background: linear-gradient(0deg, rgba(241,148,105,1) 47%, rgba(247,233,220,1) 92%);
+    box-shadow: 12px 10px 22px -3px rgba(108,108,108,0.75);
+}
+/* footer */
+footer{
+    height: 24vh;
+    background-color: #F19469;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#lista{
+    padding-top: 3vh;
+}
+#botão{
+    background-color: #5A7302;
+    color: white;
+}
+li{
+    list-style-type: none;
+    color: black;
+}
+#textoCopy{
+    padding-top: 5vh;
+    text-align: center;
+}
+#logoFooter{
+    width: 6vh;
+    height: 6vh;
+}
+#icones{
+    padding-top: 3vh;
+    margin: 0 auto;
+
+}
+.blocoDoIcone{
+    margin-top: 5vh;
+    display: inline-block;
+    margin-left: 2vh;
+}
+.redeSociais{
+    width: 5vh;
+    height: 5vh;
+}
+.redeSociais :hover{
+    opacity: 0.4;
+}

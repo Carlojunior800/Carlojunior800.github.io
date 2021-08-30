@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif; 
+}
+nav{
+    background-color: #F19469;
+}
+img{
+    width: 100%;
+    height: 80vh;
+}
+#article{
+    background-color: #F7E9DC;
+    padding: 8vh;
+    box-shadow: 12px 10px 22px -3px rgba(108,108,108,0.75);
+}
+aside {
+    background-color: #F7E9DC;
+    padding: 8vh;
+    box-shadow: 12px 10px 22px -3px rgba(108,108,108,0.75);
+}
+p{
+    text-align: justify;
+}
+h3{
+    text-align: center;
+}
+.imgDosCards{
+    height: 45vh;
+}
+h1{
+    margin-top: 4vh;
+}
+h2{
+    margin-top: 4vh;
+}
+#logoBendela{
+    height: 10vh;
+    width: 10vh;
+}
+/* Botão de subir */
+#icone{
+    height: 10vh;
+    width: 10vh;
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    cursor: pointer;
+    padding: 5px;
+    z-index: 1;
+    color: #5A7302;
+}
+
+/* footer */
+footer{
+    height: 24vh;
+    background-color: #F19469;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#lista{
+    padding-top: 3vh;
+}
+li{
+    list-style-type: none;
+    color: black;
+}
+.star{
+    width: 3vh;
+    height: 3vh;
+    margin-left: 1vh;
+    margin-bottom: 0.5vh;
+}
+.bag{
+    width: 2.8vh;
+    height: 2.8vh;
+    margin-left: 1vh;
+    margin-bottom: 0.5vh;
+}
+#textoCopy{
+    padding-top: 5vh;
+    text-align: center;
+}
+#logoFooter{
+    width: 6vh;
+    height: 6vh;
+}
+#icones{
+    padding-top: 3vh;
+    margin: 0 auto;
+
+}
+.blocoDoIcone{
+    margin-top: 5vh;
+    display: inline-block;
+    margin-left: 2vh;
+}
+.redeSociais{
+    width: 5vh;
+    height: 5vh;
+}
+.redeSociais :hover{
+    opacity: 0.4;
+}
